@@ -92,6 +92,7 @@ body {
     background: #69B99D;
     border: 0;
     padding: 15px 32px 14px;
+    box-shadow: 0px 4px 4px 0px #00000040;
   
     display: flex;
     align-items: center;
@@ -101,6 +102,16 @@ body {
     border-radius: 4px;
   
     cursor: pointer;
+  }
+
+  button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    color: #F9F9F9;
+    font-family: "Open Sans", sans-serif;
   }
   
   button:hover {
