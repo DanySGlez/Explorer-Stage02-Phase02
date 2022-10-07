@@ -3,30 +3,36 @@ body {
   
     font-family: "Open Sans", sans-serif;
   
-    background: linear-gradient(180deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
-  
+    background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
     min-height: 100vh;
 }
   
   .page {
-    width: 600px;
+    width: 1005px;
     margin: 0 auto;
-    padding-top: 65px;
+    padding: 65px 0 30px;
   }
   
   nav {
     display: flex;
-    justify-content: start;
+    align-content: center;
+    justify-content: space-between;
     align-items: center;
-  
-    margin-bottom: 15px;
-  }
+
+    margin-bottom: 55px;
+    }
   
   ul {
     display: flex;
-    list-style: none;
     margin: 0;
     padding: 0;
+    gap: 48px;
+
+    list-style: none;
+
+    font-size: 18px;
+    line-height: 23px;
   }
   
   a {
@@ -46,13 +52,20 @@ body {
   h1, ul {
     font-family: "Mulish", sans-serif;
   }
-  
+
+  #hero {
+    display: flex;
+    justify-content: space-between;
+  }
+
   h1 {
     font-size: 49px;
     line-height: 56px;
     color: #1f1534;
   
     font-weight: normal;
+
+    margin-top: 51px;
   
     width: 490px;
   }
@@ -68,11 +81,13 @@ body {
     color: #7d7987;
   
     margin: 40px 0;
+    width: 438px;
   }
-  
+
   button {
-    color: white;
+    color: #F9F9F9;
     font-family: "Open Sans", sans-serif;
+    text-transform: uppercase;
   
     background: #69B99D;
     border: 0;
@@ -98,7 +113,7 @@ body {
   
     text-align: center;
   
-    margin-top: 80px;
+    margin: 82px auto 0;
   }
   
   footer a {
